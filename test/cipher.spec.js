@@ -11,7 +11,10 @@ describe('cipher', () => {
     });
     it('debería retornar "HIJKLMNOPQRSTUVWXYZABCDEFG" para "ABCDEFGHIJKLMNOPQRSTUVWXYZ" con offset 33', () => {
       //escribe aquí tus test
+
     });
+    
+
     // Hacker edition
     //
     // [Español]

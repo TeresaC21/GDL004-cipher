@@ -1,0 +1,374 @@
+@keyframes gif{
+  1% {background: #0E1116}
+  25% {background: #0E1117}
+  50% {background: #0E1118}
+  75% {background: #0E1119}
+  100% {background: url('img/lluvia-gif.gif')}
+}
+@keyframes colorLetra{
+  2% {color: #C4CAD0}
+  25% {color: #878C8F}
+  50% {color: #A4969B}
+  75% {color: #655560}
+  100% {color: #4F0147}
+}
+@keyframes colorBoton {
+  1% {background-color: #655560}
+  25% {background-color: #35012C}
+  50% {background-color: #11001C}
+  100% {background-color: #11001C}
+}
+@keyframes hola {
+  75% {color: #655560}
+  100% {color: #4F0147}
+}
+* {
+  box-sizing: border-box;
+}
+body{
+  color: #a4969b;
+  font-family: serif, arial;
+  background-color: #0E1116;
+}
+.esconder{
+  display: none;
+}
+.inicio{
+  margin: 20px;
+  width: 90%;
+  max-width: 1000px;
+  max-width: ;
+  flex: 1 1 auto;
+}
+header{
+  background: url('img/captura22.png');
+  background-repeat: no-repeat;
+  background-position: top ;
+  background-size:;
+  padding-bottom: 80px;
+  margin: 10px;
+  width: 100%;
+
+  margin-right: 20px;
+  max-width: ;
+  flex: 1 1 auto;
+}
+h1{
+  font-size: 40px;
+  color: #0E1116;
+  padding-top: 30px;
+  margin-left: 40px;
+  animation-name: hola;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+}
+h2{
+  font-size: 30px;
+  padding-top: 5px;
+  margin-left: 20px;
+}
+h3{
+  font-size: 35px;
+  padding-top: 30px;
+  padding-left: 30px;
+  margin-left: 20px;
+  color: #0E1116;
+  animation-name: hola;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+}
+.seccion1-inicio{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: contenedor;
+  justify-content: space-between;
+  flex: 1 1 auto;
+}
+.seccion2-inicio{
+  position: absolute;
+  left: 12em;
+  top: 800px;
+}
+.borde{
+  border-color: #CB9CF2;
+  border-radius: 7px;
+  margin-left: 60px;
+  margin-right: 30px;
+  padding: center;
+  padding-top: 40px;
+  font-size: 20px;
+  color: #645560;
+  text-align: center;
+  width: 450px;
+  height: 100px;
+  position: absolute;
+  left: 5em;
+  top: 350px;
+}
+.borde-selec{
+  border-color: #CB9CF2;
+  border-radius: 5px;
+  padding: center;
+  font-size: 20px;
+  color: #645560;
+  width: 120px;
+  height: 33px;
+  position: absolute;
+  left: 24em;
+  top: 298px;
+  animation-name: gif;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  /*text-align: justify;*/
+}
+.in{
+  animation-name: gif;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+}
+.bcif{
+  background: #0E1117;
+}
+.cifrado{
+  position: absolute;
+  left: 5em;
+  top: 650px;
+  background: #0E1117;
+}
+.descifrado{
+  position: absolute;
+  left: 5em;
+  top: 650px;
+  background: #0E1117;
+}
+label{
+  display: flex;
+  align-items: left;
+  display: inline-block;
+  padding-left: 5px;
+  padding-right: 5px;
+  font-size: 25px;
+  position: absolute;
+  left: 7em;
+  top: 298px;
+  animation-name: colorLetra;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+}
+
+.botones{
+  border-color: #290025;
+  border-radius: 9px;
+  border-width: medium;
+  font-size: 20px;
+  color: #CB9CF2;
+  background-color: white;
+  width: 100px;
+  height: 30px;
+  animation-name: colorBoton;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+}
+.uno{
+  position: absolute;
+  left: 42em;
+  top: 370px;
+}
+.dos{
+  position: absolute;
+  left: 42em;
+  top: 650px;
+}
+.tres{
+  position: absolute;
+  left: 42em;
+  top: 730px;
+}
+.cuatro{
+  position: absolute;
+  left: 42em;
+  top: 345px;
+}
+.cinco{
+  position: absolute;
+  left: 42em;
+  top: 640px;
+}
+.nota{
+  margin-bottom: 10px;
+  margin-left: 80px;
+  font-size: 20px;
+  position: absolute;
+  left: 5em;
+  top: 590px;
+}
+.bye{
+  position: absolute;
+  left: 18em;
+  top: 435px;
+  font-size: 40px;
+}
+
+img{
+  background-repeat: no-repeat;
+  background-position: bottom ;
+  background-size:;
+  padding: 20px;
+  padding-top: 100px;
+  padding-bottom: 40px;
+  margin-left: 10px;
+  margin-right: 20px;
+  margin-top: 80px;
+  width: 100%;
+  position: absolute;
+  left: 1em;
+  top:700px;
+}
+
+
+@media only screen and (max-width: 700px){
+  .inicio{
+    margin: 15px;
+    width: 90%;
+    max-width:;
+    flex: 1 1 auto;
+  }
+  header{
+    background: url('img/captura22.png');
+    background-repeat: no-repeat;
+    background-position: top ;
+    padding-bottom: 30px;
+    margin: 10px;
+    width: 98%;
+    margin-right: 15px;
+    max-width: ;
+    flex: 1 1 auto;
+  }
+  h1{
+    color: #0E1116;
+    font-size: 30px;
+    padding-top: 10px;
+    margin-left: 10px;
+  }
+  h2{
+    font-size: 20px;
+    padding-top: 10px;
+    margin-left: 10px;
+  }
+  .seccion1-inicio{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: contenedor;
+    justify-content: space-between;
+    flex: 1 1 auto;
+  }
+  .seccion2-inicio{
+    position: absolute;
+    left: 6em;
+    top: 500px;
+  }
+  .borde{
+    border-color: #290025;
+    color: #645560;
+    border-radius: 7px;
+    margin-left: 30px;
+    margin-right: 20px;
+    padding: center;
+    padding-top: 35px;
+    font-size: 20px;
+    text-align: center;
+    width: 350px;
+    height: 150px;
+    position: absolute;
+    left: 1em;
+    top: 250px;
+  }
+  .borde-selec{
+    border-color: #290025;
+    color: #645560;
+    border-radius: 5px;
+    padding: center;
+    font-size: 15px;
+    width: 90px;
+    height: 20px;
+    position: absolute;
+    left: 20em;
+    top: 215px;
+    /*text-align: justify;*/
+  }
+  .cifrado{
+    position: absolute;
+    left: 1em;
+    top: 550px;
+  }
+  .descifrado{
+    position: absolute;
+    left: 1em;
+    top: 550px;
+  }
+  label{
+    display: flex;
+    align-items: left;
+    display: inline-block;
+    padding-left: 2px;
+    padding-right: 2px;
+    font-size: 20px;
+    position: absolute;
+    left: 2em;
+    top: 215px;
+  }
+
+  .botones{
+    border-color: #290025;
+    border-radius: 9px;
+    border-width: medium;
+    font-size: 20px;
+    color: #CB9CF2;
+    font-size: 10px;
+    background-color: white;
+    width: 85px;
+    height: 20px;
+  }
+  .uno{
+    position: absolute;
+    left: 45em;
+    top: 450px;
+  }
+  .dos{
+    position: absolute;
+    left: 45em;
+    top: 600px;
+  }
+  .tres{
+    position: absolute;
+    left: 45em;
+    top: 710px;
+  }
+  .cuatro{
+    position: absolute;
+    left: 45em;
+    top: 405px;
+  }
+  .cinco{
+    position: absolute;
+    left: 45em;
+    top: 770px;
+  }
+  .nota{
+    margin-bottom: 15px;
+    margin-left: 60px;
+    font-size: 15px;
+    position: absolute;
+    left: 1em;
+    top: 500px;
+  }
+  .bye{
+    position: absolute;
+    left: 10em;
+    top: 360px;
+    font-size: 30px;
+  }
