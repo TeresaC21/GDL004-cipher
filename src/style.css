@@ -157,7 +157,6 @@ label{
   animation-duration: 10s;
   animation-iteration-count: infinite;
 }
-
 .botones{
   border-color: #290025;
   border-radius: 9px;
@@ -189,7 +188,7 @@ label{
 .cuatro{
   position: absolute;
   left: 42em;
-  top: 345px;
+  top: 430px;
 }
 .cinco{
   position: absolute;
