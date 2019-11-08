@@ -14,7 +14,6 @@ describe('cipher', () => {
 
     });
 
-
     // Hacker edition
     //
     // [Español]

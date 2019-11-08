@@ -1,21 +1,20 @@
 window.cipher = {
 
   encode: (msjUsuario, espacios ) => {
+
     let mCifradoArray = []; //array vacio agregue el valor con .push de ascii con la formula de ascii
     let converStringCifrado = '';
-
     for (let i = 0; i < msjUsuario.length; i++) { //length:lee la cantidad de letras que hay en el string
       const msjAscii = msjUsuario[i].charCodeAt();//charCodeAt:devuelve el valor unicode del caracter en el indice proporcionado
       const formula = ((msjAscii-65+espacios)%26+65);//formula codigo ascii (x-65+n)%26+65
       mCifradoArray.push(formula);// que me agregue en mCifradoArray que esta vacio el valor, agregue el valor de ascii con la formula de ascii
       converStringCifrado += String.fromCharCode(mCifradoArray[i]);//convertir a cadena string
-    }
+  }
     //console.log(formula);
     //console.log(espacios);
     //console.log(msjUsuario);
     return converStringCifrado;
   },
-  
   decode: (msjUsuario, espacios) => {
     let mDescifradoArray = [];
     let converStringDesc = '';
@@ -33,6 +32,11 @@ window.cipher = {
   }
 };
 //Cifrar
+
+/*let espacioVacio;
+if ( espacioVacio === ' ' ){
+  alert('Necesitas poner algo');
+} else {*/
 
 /*let msjUsuario = 'HOLA'; // mensaje que escribiria el usuario
 let mCifradoArray = []; //array vacio agregue el valor con .push de ascii con la formula de ascii
